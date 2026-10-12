@@ -1,0 +1,41 @@
+<testsuites id="" name="" tests="3" failures="1" skipped="0" errors="0" time="6.956973">
+<testsuite name="AllureReport.spec.js" timestamp="2026-10-08T15:25:20.120Z" hostname="chromium" tests="3" failures="1" skipped="0" time="7.235" errors="0">
+<testcase name="SauceDemo Login" classname="AllureReport.spec.js" time="0.527">
+</testcase>
+<testcase name="Playwright has titile" classname="AllureReport.spec.js" time="0.553">
+</testcase>
+<testcase name="Facebook has titile" classname="AllureReport.spec.js" time="6.155">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\AllureReport-Facebook-has-titile-chromium\error-context.md]]
+]]>
+</system-out>
+<failure message="expect(page).toHaveTitle(expected) failed" type="expect.toHaveTitle">
+<![CDATA[  [chromium] › AllureReport.spec.js:24:5 › Facebook has titile ─────────────────────────────────────
+
+    Error: expect(page).toHaveTitle(expected) failed
+
+    Expected: "Facebook1"
+    Received: "Facebook"
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveTitle" with timeout 5000ms
+        13 × locator resolved to <html lang="en" dir="ltr" id="facebook" class="_9dls __fb-light-mode">…</html>
+           - unexpected value "Facebook"
+
+
+      25 |   //url
+      26 |   await page.goto("https://www.facebook.com/");
+    > 27 |   await expect(page).toHaveTitle("Facebook1");
+         |                      ^
+      28 | });
+      29 |
+        at C:\Users\rushi\OneDrive\Documents\GitHub\PlaywrightAutomation\tests\AllureReport.spec.js:27:22
+
+    Error Context: ..\test-results\AllureReport-Facebook-has-titile-chromium\error-context.md
+]]>
+</failure>
+</testcase>
+</testsuite>
+</testsuites>

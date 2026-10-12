@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","6155","Facebook has titile","chromium","2026-10-08","failed","2026-10-08","","AllureReport.spec.js","",""
+"","553","Playwright has titile","chromium","2026-10-08","passed","2026-10-08","","AllureReport.spec.js","",""
+"","527","SauceDemo Login","chromium","2026-10-08","passed","2026-10-08","","AllureReport.spec.js","",""
